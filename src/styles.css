@@ -1,0 +1,52 @@
+body {
+  background-color: #ede6df;
+  min-height: 100vh;
+  max-width: 100%;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  font-family: "Helvetica Neue", sans-serif;
+  color: #f2cc8f;
+  background-color: #3d405b;
+  border: 1px solid black;
+  flex: 1;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.todo-input {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#textInput {
+  margin-right: 10px;
+  width: 50%;
+}
+
+button {
+}
+
+.todo-list {
+  width: 100%
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+}
+
+#myForm {
+  width: 80%;
+}
